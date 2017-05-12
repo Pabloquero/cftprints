@@ -1,0 +1,28 @@
+{
+  "name": "cftprints",
+  "version": "0.1.0",
+  "description": "Ucevalpo Servicio de Impresion",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack",
+    "start": "electron ."
+  },
+  "author": "Pablo Pizarro Collao",
+  "repository": "pabloquero/cft-prints",
+  "license": "WTFPL",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.26.1",
+    "electron": "^1.4.15",
+    "electron-reload": "^1.1.0",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "file-loader": "^0.9.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
